@@ -13,25 +13,35 @@
     <h1>OMV</h1>
     <fieldset>
         <legend>Benzin</legend>
-        <input type="checkbox" name="Benzin1" id="Benzin1">
+        <input type="radio" name="Benzin1" id="Benzin1">
         <label for="Benzin1">90-es</label>
         <br>
-        <input type="checkbox" name="Benzin2" id="Benzin2">
+        <input type="radio" name="Benzin1" id="Benzin2">
         <label for="Benzin2">95-ös</label>
         <br>
-        <input type="checkbox" name="Benzin3" id="Benzin3">
+        <input type="radio" name="Benzin1" id="Benzin3">
         <label for="Benzin3">100-as</label>
     </fieldset>
     <fieldset>
         <legend>Diesel</legend>
-        <input type="checkbox" name="Diesel1" id="Diesel1">
+        <input type="radio" name="Diesel1" id="Diesel1">
         <label for="Diesel1">90-es</label>
         <br>
-        <input type="checkbox" name="Diesel2" id="Diesel2">
+        <input type="radio" name="Diesel1" id="Diesel2">
         <label for="Diesel2">95-ös</label>
         <br>
-        <input type="checkbox" name="Diesel3" id="Diesel3">
+        <input type="radio" name="Diesel1" id="Diesel3">
         <label for="Diesel3">100-as</label>
+    </fieldset>
+    <fieldset>
+        <input type="radio" name="Hutoviz1" id="Hutoviz1">
+        <label for="Hutoviz1">Lamborghini hűtővíz</label>
+        <br>
+        <input type="radio" name="Hutoviz1" id="Hutoviz2">
+        <label for="Hutoviz2">Dodge hűtővíz</label>
+        <br>
+        <input type="radio" name="Hutoviz1" id="Hutoviz3">
+        <label for="Hutoviz3">Bugatti hűtővíz</label>
     </fieldset>
     <fieldset>
         <legend>Rendelés adatai</legend>
@@ -44,11 +54,15 @@
         <input type="date" name="ido" id="ido2">
         <fieldset>
             <br>
-            <input type="datetime" name="ido3" id="ido4">
+            <input type="datetime" name="ido3" id="ido3" placeholder="Pontos Idő pl.: 12:45">
             <label for="ido3">Kiszállítás ideje</label>
         </fieldset>
-
-    </fieldset>
+        <fieldset>
+        <button type="button" name="FizetesKartya" >
+        <label for="FizetesKartya">Fizetés Kártyával</label>
+        <button type="button" name="FizetesKP">
+        <label for="FizetesKP">Fizetés Készpénzel</label>
+        </fieldset>
 
 </form>
 
