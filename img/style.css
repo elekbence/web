@@ -1,0 +1,15 @@
+nav  a {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+nav a:hover {
+    color: brown;
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+
+body{
+    background-color: purple;
+    color: blanchedalmond;
+}
